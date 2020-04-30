@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite name="CMS" parallel="classes" thread-count="2">
+  <test name="PaxelCMS">
+    <classes>
+      <class name="testcases.TC001_LoginLogOut"/>
+      <class name="testcases.TC010_PriceTemplates"/>
+      
+      
+    </classes>
+  </test> Leads
+</suite> PaxelCMS
+ -->
+ <suite name="Parallel test suite" parallel="classes" thread-count="2">
+  <test name="PAxel CMS">
+    <classes>
+      <class name="testcases.TC001_LoginLogOut"/>
+      <class name="testcases.TC010_PriceTemplates"/>
+	  <class name="testcases.TC009_AllShipments"/>
+	  
+    </classes>
+  </test>
+</suite>
