@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="8" total="11" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="60999" started-at="2020-04-30T11:29:02Z" finished-at="2020-04-30T11:30:03Z">
+  <suite name="Suite" duration-ms="59448" started-at="2020-05-01T17:58:49Z" finished-at="2020-05-01T17:59:49Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="60999" started-at="2020-04-30T11:29:02Z" finished-at="2020-04-30T11:30:03Z">
+    <test name="Test" duration-ms="59448" started-at="2020-05-01T17:58:49Z" finished-at="2020-05-01T17:59:49Z">
       <class name="testcases.TC001_LoginLogOut">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.TC001_LoginLogOut@2286778]" name="beforeSuite" is-config="true" duration-ms="382" started-at="2020-04-30T16:59:02Z" finished-at="2020-04-30T16:59:02Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.TC001_LoginLogOut@2286778]" name="beforeSuite" is-config="true" duration-ms="498" started-at="2020-05-01T23:28:49Z" finished-at="2020-05-01T23:28:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.TC001_LoginLogOut@2286778]" name="beforeTest" is-config="true" duration-ms="1" started-at="2020-04-30T16:59:02Z" finished-at="2020-04-30T16:59:02Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.TC001_LoginLogOut@2286778]" name="beforeTest" is-config="true" duration-ms="0" started-at="2020-05-01T23:28:49Z" finished-at="2020-05-01T23:28:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.TC001_LoginLogOut@2286778]" name="setValue" is-config="true" duration-ms="0" started-at="2020-04-30T16:59:02Z" finished-at="2020-04-30T16:59:02Z">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.TC001_LoginLogOut@2286778]" name="setValue" is-config="true" duration-ms="0" started-at="2020-05-01T23:28:49Z" finished-at="2020-05-01T23:28:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setValue -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC001_LoginLogOut@2286778]" name="beforeMethod" is-config="true" duration-ms="14735" started-at="2020-04-30T16:59:03Z" finished-at="2020-04-30T16:59:17Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC001_LoginLogOut@2286778]" name="beforeMethod" is-config="true" duration-ms="14577" started-at="2020-05-01T23:28:50Z" finished-at="2020-05-01T23:29:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_LoginLogOut@2286778]" name="loginLogOut" duration-ms="8779" started-at="2020-04-30T16:59:17Z" data-provider="fetchData" finished-at="2020-04-30T16:59:26Z">
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_LoginLogOut@2286778]" name="loginLogOut" duration-ms="7671" started-at="2020-05-01T23:29:04Z" data-provider="fetchData" finished-at="2020-05-01T23:29:12Z">
           <params>
             <param index="0">
               <value>
@@ -39,29 +39,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginLogOut -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC001_LoginLogOut@2286778]" name="afterMethod" is-config="true" duration-ms="1221" started-at="2020-04-30T16:59:26Z" finished-at="2020-04-30T16:59:27Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC001_LoginLogOut@2286778]" name="afterMethod" is-config="true" duration-ms="1436" started-at="2020-05-01T23:29:12Z" finished-at="2020-05-01T23:29:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC001_LoginLogOut@2286778]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-04-30T17:00:03Z" finished-at="2020-04-30T17:00:03Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC001_LoginLogOut@2286778]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-05-01T23:29:49Z" finished-at="2020-05-01T23:29:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.TC001_LoginLogOut@2286778]" name="afterSuite" is-config="true" duration-ms="341" started-at="2020-04-30T17:00:03Z" finished-at="2020-04-30T17:00:03Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.TC001_LoginLogOut@2286778]" name="afterSuite" is-config="true" duration-ms="551" started-at="2020-05-01T23:29:49Z" finished-at="2020-05-01T23:29:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- testcases.TC001_LoginLogOut -->
       <class name="testcases.TC009_AllShipments">
-        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.TC009_AllShipments@6d7b4f4c]" name="setValue" is-config="true" duration-ms="0" started-at="2020-04-30T16:59:45Z" finished-at="2020-04-30T16:59:45Z">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.TC009_AllShipments@6d7b4f4c]" name="setValue" is-config="true" duration-ms="0" started-at="2020-05-01T23:29:31Z" finished-at="2020-05-01T23:29:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setValue -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC009_AllShipments@6d7b4f4c]" name="beforeMethod" is-config="true" duration-ms="9017" started-at="2020-04-30T16:59:45Z" finished-at="2020-04-30T16:59:54Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC009_AllShipments@6d7b4f4c]" name="beforeMethod" is-config="true" duration-ms="8774" started-at="2020-05-01T23:29:31Z" finished-at="2020-05-01T23:29:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC009_AllShipments@6d7b4f4c]" name="loginLogOut" duration-ms="8112" started-at="2020-04-30T16:59:54Z" data-provider="fetchData" finished-at="2020-04-30T17:00:02Z">
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC009_AllShipments@6d7b4f4c]" name="loginLogOut" duration-ms="8251" started-at="2020-05-01T23:29:39Z" data-provider="fetchData" finished-at="2020-05-01T23:29:48Z">
           <params>
             <param index="0">
               <value>
@@ -77,21 +77,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginLogOut -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC009_AllShipments@6d7b4f4c]" name="afterMethod" is-config="true" duration-ms="862" started-at="2020-04-30T17:00:02Z" finished-at="2020-04-30T17:00:03Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC009_AllShipments@6d7b4f4c]" name="afterMethod" is-config="true" duration-ms="850" started-at="2020-05-01T23:29:48Z" finished-at="2020-05-01T23:29:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- testcases.TC009_AllShipments -->
       <class name="testcases.TC010_PriceTemplates">
-        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.TC010_PriceTemplates@4e9ba398]" name="setValue" is-config="true" duration-ms="0" started-at="2020-04-30T16:59:27Z" finished-at="2020-04-30T16:59:27Z">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.TC010_PriceTemplates@4e9ba398]" name="setValue" is-config="true" duration-ms="0" started-at="2020-05-01T23:29:13Z" finished-at="2020-05-01T23:29:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setValue -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC010_PriceTemplates@4e9ba398]" name="beforeMethod" is-config="true" duration-ms="8930" started-at="2020-04-30T16:59:27Z" finished-at="2020-04-30T16:59:36Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC010_PriceTemplates@4e9ba398]" name="beforeMethod" is-config="true" duration-ms="8815" started-at="2020-05-01T23:29:13Z" finished-at="2020-05-01T23:29:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC010_PriceTemplates@4e9ba398]" name="loginLogOut" duration-ms="7830" started-at="2020-04-30T16:59:36Z" data-provider="fetchData" finished-at="2020-04-30T16:59:44Z">
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC010_PriceTemplates@4e9ba398]" name="loginLogOut" duration-ms="7610" started-at="2020-05-01T23:29:22Z" data-provider="fetchData" finished-at="2020-05-01T23:29:30Z">
           <params>
             <param index="0">
               <value>
@@ -107,7 +107,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginLogOut -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC010_PriceTemplates@4e9ba398]" name="afterMethod" is-config="true" duration-ms="959" started-at="2020-04-30T16:59:44Z" finished-at="2020-04-30T16:59:45Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC010_PriceTemplates@4e9ba398]" name="afterMethod" is-config="true" duration-ms="922" started-at="2020-05-01T23:29:30Z" finished-at="2020-05-01T23:29:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
