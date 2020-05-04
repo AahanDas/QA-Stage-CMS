@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
     <classes>
+      <class name="testcases.TC001_LoginLogOut">
+        <methods>
+          <include name="loginLogOut" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="setValue"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testcases.TC001_LoginLogOut -->
       <class name="testcases.TC010_PriceTemplates">
         <methods>
           <include name="beforeTest"/>
@@ -15,6 +27,18 @@
           <include name="setValue"/>
         </methods>
       </class> <!-- testcases.TC010_PriceTemplates -->
+      <class name="testcases.TC009_AllShipments">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="loginLogOut" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="setValue"/>
+        </methods>
+      </class> <!-- testcases.TC009_AllShipments -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
